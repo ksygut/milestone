@@ -1,0 +1,25 @@
+body {background-color: #F0F0F0;}
+
+img { max-width: 100%; height: auto; }
+
+@media screen and (max-width: 66em) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 48em) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:1em) {
+    img[data-src-1em] {
+        content: attr(data-src-1em, url);
+    }
+}
+
+@media (min-device-width:1em) {
+    img[data-src-1em] {
+        content: attr(data-src-1em, url);
+    }
+}
